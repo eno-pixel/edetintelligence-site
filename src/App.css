@@ -210,3 +210,16 @@ line-height: 1.2;
     line-height: 1.45;
   }
 }
+
+.footer-signature {
+  margin-top: 42px !important;
+}
+
+.footer-signature p {
+  margin: 3px 0 !important;
+  line-height: 1.2 !important;
+}
+
+.footer-signature .email-line {
+  margin-top: 6px !important;
+}
