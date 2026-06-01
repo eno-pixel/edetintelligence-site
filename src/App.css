@@ -159,6 +159,18 @@ body {
   font-size: 19px;
   color: #444;
 }
+.credibility {
+max-width: 900px;
+margin: 0 auto;
+padding: 70px 40px 40px;
+text-align: center;
+}
+
+.credibility p {
+font-size: 19px;
+line-height: 1.7;
+color: #333;
+}
 
 @media (max-width: 800px) {
   .headline {
