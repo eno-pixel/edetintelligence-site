@@ -67,7 +67,7 @@ export default function App() {
           shaping Louisiana's future workforce.
         </p>
         <p>Published by Edet Intelligence</p>
-        <p>Independent Louisiana Economic and Workforce Intelligence</p>
+        <p>Louisiana Economic and Workforce Intelligence</p>
         <p className="email-line">
           <a href="mailto:eno@edetintelligence.com">eno@edetintelligence.com</a>
         </p>
