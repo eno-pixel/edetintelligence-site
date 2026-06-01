@@ -27,7 +27,7 @@ body {
 
 .masthead {
   margin: 8px 0 0;
-  font-size: 48px;
+  font-size: 44px;
   letter-spacing: 0.08em;
 }
 
@@ -41,7 +41,7 @@ body {
 .headline {
   max-width: 850px;
   margin: 28px auto 0;
-  font-size: 38px;
+  font-size: 32px;
   line-height: 1.15;
   text-align: center;
 }
