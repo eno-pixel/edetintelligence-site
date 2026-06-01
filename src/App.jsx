@@ -66,11 +66,13 @@ export default function App() {
           See how Edet Intelligence tracks the projects, investments, and developments
           shaping Louisiana's future workforce.
         </p>
-        <p>Published by Edet Intelligence</p>
-        <p>Louisiana Economic and Workforce Intelligence</p>
-        <p className="email-line">
-          <a href="mailto:eno@edetintelligence.com">eno@edetintelligence.com</a>
-        </p>
+        <div className="footer-signature">
+          <p>Published by Edet Intelligence Inc.</p>
+          <p>Louisiana Economic and Workforce Intelligence</p>
+          <p className="email-line">
+            <a href="mailto:eno@edetintelligence.com">eno@edetintelligence.com</a>
+          </p>
+        </div>
       </footer>
     </div>
   );
