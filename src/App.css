@@ -172,6 +172,16 @@ line-height: 1.7;
 color: #333;
 }
 
+.footer-signature {
+margin-top: 36px;
+}
+
+.footer-signature p {
+margin: 4px 0;
+line-height: 1.2;
+}
+
+
 @media (max-width: 800px) {
   .headline {
     font-size: 40px;
