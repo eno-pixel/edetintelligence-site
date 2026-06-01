@@ -1,4 +1,3 @@
-cat > ~/edetintelligence-site/src/App.jsx <<'EOF'
 import { BarChart3, BriefcaseBusiness, FileText, MapPinned } from "lucide-react";
 import "./App.css";
 
@@ -85,8 +84,3 @@ function Feature({ icon, title }) {
     </div>
   );
 }
-EOF
-
-cd ~/edetintelligence-site
-npm run build
-
