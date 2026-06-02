@@ -16,18 +16,14 @@ export default function App() {
           Labor Market Intelligence for Employers, Recruiters, and Economic Developers
         </p>
         <p className="issue">Volume 1 • Issue 1 • June 2026</p>
+
+        <p className="coverage">
+          THE RIVER PARISHES • LAKE CHARLES CORRIDOR • CENTRAL LOUISIANA
+        </p>
         <h2 className="headline">Labor Demand Begins Long Before a Job Posting.</h2>
         <p className="tagline">
           The Edet Labor Review tracks the economic, industrial, infrastructure, workforce, and development signals shaping Louisiana's future labor demand, providing employers, recruiters, workforce boards, economic developers, educational institutions, and investors with early insight into emerging workforce needs.
         </p>
-        <div className="coverage">
-          <p>Coverage Areas</p>
-          <ul>
-            <li>The River Parishes</li>
-            <li>The Lake Charles Corridor</li>
-            <li>Central Louisiana</li>
-          </ul>
-        </div>
       </section>
 
       <section className="stats">
