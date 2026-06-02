@@ -385,3 +385,7 @@ body {
 .footer h2 {
   margin-bottom: 24px !important;
 }
+
+.masthead {
+  letter-spacing: 0.03em !important;
+}
