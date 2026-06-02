@@ -420,3 +420,7 @@ body {
     font-size: 22px !important;
   }
 }
+
+.masthead {
+  letter-spacing: 0.015em !important;
+}
