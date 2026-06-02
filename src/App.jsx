@@ -1,4 +1,4 @@
-import { BarChart3, BriefcaseBusiness, FileText, MapPinned } from "lucide-react";
+import { Factory, MapPinned, Radar, UsersRound } from "lucide-react";
 import "./App.css";
 
 export default function App() {
@@ -45,10 +45,10 @@ export default function App() {
       </section>
 
       <section className="features">
-        <Feature icon={<BarChart3 />} title="Workforce Demand Forecasts" />
+        <Feature icon={<Radar />} title="Workforce Demand Forecasts" />
         <Feature icon={<MapPinned />} title="Hiring Hotspot Rankings" />
-        <Feature icon={<BriefcaseBusiness />} title="Occupational Watchlists" />
-        <Feature icon={<FileText />} title="Emerging Labor Signals" />
+        <Feature icon={<UsersRound />} title="Occupational Watchlists" />
+        <Feature icon={<Factory />} title="Emerging Labor Signals" />
       </section>
 
       <section className="dark">
@@ -66,6 +66,11 @@ export default function App() {
           See how Edet Intelligence tracks the projects, investments, and developments
           shaping Louisiana's future workforce.
         </p>
+
+        <a className="issue-button" href="mailto:eno@edetintelligence.com?subject=Request%20The%20Edet%20Labor%20Review">
+          Request by Email
+        </a>
+
         <div className="footer-signature">
           <p>Published by Edet Intelligence Inc.</p>
           <p>Louisiana Economic and Workforce Intelligence</p>

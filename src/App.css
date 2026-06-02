@@ -27,22 +27,23 @@ body {
 
 .masthead {
   margin: 8px 0 0;
-  font-size: 40px;
-  letter-spacing: 0.04em;
+  font-size: 44px;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
 }
 
 .hero {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 50px 40px 80px;
+  padding: 52px 40px 64px;
   text-align: center;
 }
 
 .headline {
   max-width: 850px;
   margin: 28px auto 0;
-  font-size: 28px;
-  line-height: 1.15;
+  font-size: 38px;
+  line-height: 1.18;
   text-align: center;
 }
 
@@ -96,24 +97,38 @@ body {
   color: #666;
 }
 
+.credibility {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px 40px 40px;
+  text-align: center;
+}
+
+.credibility p {
+  font-size: 19px;
+  line-height: 1.7;
+  color: #333;
+}
+
 .features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  padding: 70px 40px;
+  padding: 62px 40px 72px;
 }
 
 .feature {
   background: white;
   border: 1px solid #d4d4d4;
-  padding: 28px;
+  padding: 32px 28px;
   text-align: center;
 }
 
 .feature svg {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   margin-bottom: 24px;
+  stroke-width: 1.7;
 }
 
 .feature h3 {
@@ -146,7 +161,7 @@ body {
 .footer {
   text-align: center;
   background: white;
-  padding: 80px 40px;
+  padding: 72px 40px 84px;
   border-top: 1px solid #d4d4d4;
 }
 
@@ -159,32 +174,68 @@ body {
   font-size: 19px;
   color: #444;
 }
-.credibility {
-max-width: 900px;
-margin: 0 auto;
-padding: 70px 40px 40px;
-text-align: center;
+
+.issue-button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 13px 24px;
+  border: 1px solid #111;
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 
-.credibility p {
-font-size: 19px;
-line-height: 1.7;
-color: #333;
+.issue-button:hover {
+  background: #111;
+  color: white;
 }
 
 .footer-signature {
-margin-top: 36px;
+  margin-top: 38px;
 }
 
 .footer-signature p {
-margin: 4px 0;
-line-height: 1.2;
+  margin: 3px 0;
+  line-height: 1.25;
 }
 
+.footer a {
+  color: #111;
+  font-weight: 700;
+}
+
+.email-line {
+  margin-top: 8px !important;
+}
 
 @media (max-width: 800px) {
+  .masthead {
+    font-size: 30px;
+    line-height: 1.35;
+    letter-spacing: 0.06em;
+  }
+
+  .published,
+  .eyebrow,
+  .issue {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    line-height: 1.7;
+  }
+
+  .hero {
+    padding-top: 42px;
+    padding-bottom: 56px;
+  }
+
   .headline {
-    font-size: 40px;
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 20px;
   }
 
   .stats,
@@ -195,31 +246,11 @@ line-height: 1.2;
   .header,
   .hero,
   .stats,
+  .credibility,
   .features,
   .dark,
   .footer {
     padding-left: 24px;
     padding-right: 24px;
   }
-}
-
-
-
-@media (max-width: 800px) {
-  .masthead {
-    line-height: 1.45;
-  }
-}
-
-.footer-signature {
-  margin-top: 42px !important;
-}
-
-.footer-signature p {
-  margin: 3px 0 !important;
-  line-height: 1.2 !important;
-}
-
-.footer-signature .email-line {
-  margin-top: 6px !important;
 }
