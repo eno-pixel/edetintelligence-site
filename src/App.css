@@ -357,3 +357,13 @@ body {
   letter-spacing: 0.08em !important;
   text-transform: uppercase;
 }
+
+.headline {
+  font-size: 34px !important;
+}
+
+.tagline {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+  max-width: 850px;
+}
