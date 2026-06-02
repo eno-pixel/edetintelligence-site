@@ -389,3 +389,17 @@ body {
 .masthead {
   letter-spacing: 0.03em !important;
 }
+
+.masthead,
+.headline,
+.footer h2 {
+  color: #111 !important;
+}
+
+@media (max-width: 800px) {
+  .masthead,
+  .headline,
+  .footer h2 {
+    color: #111 !important;
+  }
+}
