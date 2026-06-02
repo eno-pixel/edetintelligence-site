@@ -381,3 +381,7 @@ body {
   line-height: 1.45 !important;
   margin-top: 16px !important;
 }
+
+.footer h2 {
+  margin-bottom: 24px !important;
+}
