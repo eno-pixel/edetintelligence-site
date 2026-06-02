@@ -367,3 +367,7 @@ body {
   line-height: 1.6 !important;
   max-width: 850px;
 }
+
+.stats p {
+  color: #444 !important;
+}
