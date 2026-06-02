@@ -67,8 +67,12 @@ export default function App() {
           shaping Louisiana's future workforce.
         </p>
 
-        <a className="issue-button" href="mailto:eno@edetintelligence.com?subject=Request%20The%20Edet%20Labor%20Review">
-          Request by Email
+        <a className="issue-button"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=eno@edetintelligence.com&su=Request%20The%20Edet%20Labor%20Review"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Request by Email
         </a>
 
         <div className="footer-signature">
