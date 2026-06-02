@@ -17,7 +17,10 @@ export default function App() {
         </p>
         <p className="issue">Volume 1 • Issue 1 • June 2026</p>
         <h2 className="headline">Labor Demand Begins Long Before a Job Posting.</h2>
-        <p className="tagline">Tracking the signals that create tomorrow's workforce demand.</p>
+        <p className="tagline">
+          The Edet Labor Review tracks the economic, industrial, infrastructure,
+          and development signals shaping Louisiana's future workforce demand.
+        </p>
         <p className="coverage">
           Coverage currently spans the River Parishes, the Lake Charles Corridor,
           and Central Louisiana.
