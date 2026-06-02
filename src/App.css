@@ -346,3 +346,14 @@ body {
   text-align: center !important;
   max-width: 900px !important;
 }
+
+.published,
+.eyebrow,
+.issue,
+.coverage {
+  color: #111 !important;
+  font-size: 15px !important;
+  font-weight: 500;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase;
+}
