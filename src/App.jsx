@@ -60,8 +60,7 @@ export default function App() {
       <footer className="footer">
         <h2>Request the Latest Issue</h2>
         <p>
-          See how Edet Intelligence tracks the projects, investments, and developments
-          shaping Louisiana's future workforce.
+          See how The Edet Labor Review tracks the projects, investments, and developments shaping Louisiana's future workforce, helping employers, recruiters, workforce boards, economic developers, and investors identify emerging workforce needs before they appear in traditional labor market data.
         </p>
 
         <a className="issue-button"
