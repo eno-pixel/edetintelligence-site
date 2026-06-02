@@ -403,3 +403,10 @@ body {
     color: #111 !important;
   }
 }
+
+@media (max-width: 800px) {
+  .headline {
+    font-size: 28px !important;
+    line-height: 1.2 !important;
+  }
+}
