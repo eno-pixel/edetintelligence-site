@@ -376,3 +376,8 @@ body {
   line-height: 1.15 !important;
   margin-top: 6px !important;
 }
+
+.dark p {
+  line-height: 1.45 !important;
+  margin-top: 16px !important;
+}
