@@ -75,9 +75,6 @@ export default function App() {
         <div className="footer-signature">
           <p>Published by Edet Intelligence Inc.</p>
           <p>Louisiana Economic and Workforce Intelligence</p>
-          <p className="email-line">
-            <a href="mailto:eno@edetintelligence.com">eno@edetintelligence.com</a>
-          </p>
         </div>
       </footer>
     </div>

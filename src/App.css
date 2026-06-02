@@ -301,3 +301,10 @@ body {
   font-style: normal !important;
   font-weight: 500;
 }
+
+
+.published,
+.eyebrow,
+.issue {
+  color: #111 !important;
+}
