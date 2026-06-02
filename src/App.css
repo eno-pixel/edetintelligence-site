@@ -308,3 +308,31 @@ body {
 .issue {
   color: #111 !important;
 }
+
+
+.coverage {
+  margin-top: 18px !important;
+  color: #111 !important;
+}
+
+.coverage p {
+  color: #111 !important;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.coverage ul {
+  list-style: disc;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding-left: 22px;
+}
+
+.coverage li {
+  color: #111 !important;
+  font-size: 15px;
+  margin: 6px 0;
+}

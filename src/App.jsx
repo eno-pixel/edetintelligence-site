@@ -20,10 +20,14 @@ export default function App() {
         <p className="tagline">
           The Edet Labor Review tracks the economic, industrial, infrastructure, workforce, and development signals shaping Louisiana's future labor demand, providing employers, recruiters, workforce boards, economic developers, educational institutions, and investors with early insight into emerging workforce needs.
         </p>
-        <p className="coverage">
-          Coverage currently spans the River Parishes, the Lake Charles Corridor,
-          and Central Louisiana.
-        </p>
+        <div className="coverage">
+          <p>Coverage Areas</p>
+          <ul>
+            <li>The River Parishes</li>
+            <li>The Lake Charles Corridor</li>
+            <li>Central Louisiana</li>
+          </ul>
+        </div>
       </section>
 
       <section className="stats">
