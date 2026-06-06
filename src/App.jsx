@@ -1,90 +1,107 @@
-import { Factory, MapPinned, Radar, UsersRound } from "lucide-react";
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="site">
-      <header className="header">
-        <div>
-          <div className="published">Published by Edet Intelligence</div>
-          <h1 className="masthead">THE EDET LABOR REVIEW</h1>
+    <main className="site">
+      <section className="atlas-page">
+        <p className="presented">Presented by Edet Intelligence Inc.</p>
+        <h1>ATLAS EDET<span>™</span></h1>
+        <h2>Louisiana Economic Development and Workforce Intelligence</h2>
+        <p className="signal-line">10,000+ Structured Signals • 3 Louisiana Regions • Continuous Monitoring</p>
+
+        <p className="intro">
+          Atlas Edet is a Louisiana intelligence platform that tracks infrastructure investment,
+          industrial expansion, workforce initiatives, economic development projects, utility upgrades,
+          site development activity, and public-sector investments shaping Louisiana's future economy.
+        </p>
+
+        <div className="metrics">
+          <div><strong>10,000+</strong><span>Structured Signals</span></div>
+          <div><strong>3</strong><span>Louisiana Regions</span></div>
+          <div><strong>Daily</strong><span>Monitoring</span></div>
+          <div><strong>Forward-Looking</strong><span>Analysis</span></div>
         </div>
-      </header>
 
-      <section className="hero">
-        <p className="eyebrow">
-          Labor Market Intelligence for Employers, Recruiters, and Economic Developers
-        </p>
-        <p className="issue">Volume 1 • Issue 1 • June 2026</p>
+        <div className="grid">
+          <div className="card">
+            <h3>What Atlas Edet Tracks</h3>
+            <p>Economic Development Activity</p>
+            <p>Industrial Expansion &amp; Manufacturing Investment</p>
+            <p>Workforce Development Initiatives</p>
+            <p>Infrastructure Investment</p>
+            <p>Utility Expansion &amp; Capacity Growth</p>
+            <p>Site Development &amp; Site Readiness</p>
+            <p>Public-Sector Capital Projects</p>
+            <p>Emerging Labor Demand</p>
+            <p>Business Recruitment Activity</p>
+            <p>Regional Growth Trends</p>
+          </div>
 
-        <p className="coverage">
-          THE RIVER PARISHES • LAKE CHARLES CORRIDOR • CENTRAL LOUISIANA
-        </p>
-        <h2 className="headline">Labor Demand Begins Long Before a Job Posting.</h2>
-        <p className="tagline">
-          The Edet Labor Review tracks the economic, industrial, infrastructure, workforce, and development signals shaping Louisiana's future labor demand, providing employers, recruiters, workforce boards, economic developers, educational institutions, and investors with early insight into emerging workforce needs.
-        </p>
-      </section>
-
-      <section className="stats">
-        <div><h3>8,100+</h3><p>Workforce-Relevant Signals Tracked</p></div>
-        <div><h3>3</h3><p>Louisiana Regions Monitored</p></div>
-        <div><h3>Weekly</h3><p>Labor Intelligence Briefings</p></div>
-        <div><h3>Forward-Looking</h3><p>Workforce Demand Analysis</p></div>
-      </section>
-
-      <section className="credibility">
-        <p>
-          Coverage includes infrastructure projects, industrial investments, public works,
-          workforce initiatives, site development activity, utility expansion, and economic
-          development activity across Louisiana.
-        </p>
-      </section>
-
-      <section className="features">
-        <Feature icon={<Radar />} title="Workforce Demand Forecasts" />
-        <Feature icon={<MapPinned />} title="Hiring Hotspot Rankings" />
-        <Feature icon={<UsersRound />} title="Occupational Watchlists" />
-        <Feature icon={<Factory />} title="Emerging Labor Signals" />
-      </section>
-
-      <section className="dark">
-        <h2>A Serious Labor Intelligence Publication for Louisiana</h2>
-        <p>
-          Each issue translates regional economic signals into practical labor market
-          intelligence for staffing firms, employers, workforce boards, economic developers,
-          contractors, educational institutions, and investors.
-        </p>
-      </section>
-
-      <footer className="footer">
-        <h2>Request the Latest Issue</h2>
-        <p>
-          See how The Edet Labor Review tracks the projects, investments, and developments shaping Louisiana's future workforce, helping employers, recruiters, workforce boards, economic developers, and investors identify emerging workforce needs before they appear in traditional labor market data.
-        </p>
-
-        <a className="issue-button"
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=eno@edetintelligence.com&su=Request%20The%20Edet%20Labor%20Review"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Request by Email
-        </a>
-
-        <div className="footer-signature">
-          <p>Published by Edet Intelligence Inc.</p>
-          <p>Louisiana Economic and Workforce Intelligence</p>
+          <div className="card">
+            <h3>Atlas Intelligence Outputs</h3>
+            <p>Louisiana Labor Review</p>
+            <p>Workforce Demand Forecasts</p>
+            <p>Hiring Hotspot Rankings</p>
+            <p>Occupational Watchlists</p>
+            <p>Economic Development Intelligence</p>
+            <p>Capital Movement Intelligence</p>
+            <p>Industrial Investment Monitoring</p>
+            <p>Infrastructure &amp; Site Development Intelligence</p>
+            <p>Custom Research &amp; Analytics</p>
+          </div>
         </div>
-      </footer>
-    </div>
-  );
-}
 
-function Feature({ icon, title }) {
-  return (
-    <div className="feature">
-      {icon}
-      <h3>{title}</h3>
-    </div>
+        <section className="text-section">
+          <h3>What Makes Atlas Different</h3>
+          <p>
+            Most economic reports explain what happened. Atlas Edet tracks the decisions,
+            investments, projects, workforce initiatives, and development activity that determine what happens next.
+          </p>
+          <p>
+            By continuously monitoring economic development activity across Louisiana, Atlas helps employers,
+            workforce boards, economic developers, educational institutions, recruiters, contractors, utilities,
+            and investors identify emerging opportunities before they become widely recognized.
+          </p>
+          <p>
+            Built from more than 10,000 structured intelligence signals, Atlas helps organizations identify where
+            economic activity is accelerating, where workforce demand is emerging, and where capital is being
+            deployed across Louisiana before those trends appear in traditional economic or labor market data.
+          </p>
+        </section>
+
+        <section className="text-section">
+          <h3>Why Atlas Edet Exists</h3>
+          <p>
+            Louisiana's future workforce demand is shaped long before a job posting appears. Major industrial
+            investments, infrastructure projects, utility expansions, site development efforts, workforce initiatives,
+            and economic development activities create labor demand months and often years before traditional labor
+            market data reflects it.
+          </p>
+          <p>Atlas Edet helps organizations understand:</p>
+          <div className="plain-list">
+            <p>Where jobs are likely to emerge</p>
+            <p>Which industries are expanding</p>
+            <p>Where infrastructure investment is accelerating</p>
+            <p>Which regions are attracting capital</p>
+            <p>What workforce needs are developing</p>
+            <p>How Louisiana's economy is changing over time</p>
+          </div>
+        </section>
+
+        <footer>
+          <p>Tracking the Signals That Shape Louisiana's Future Workforce</p>
+          <a className="contact-button" href="mailto:eno@edetintelligence.com?subject=Atlas%20Edet%20Inquiry">
+            Contact Edet Intelligence
+          </a>
+        
+          <img
+            src="/logo.png"
+            alt="Edet Intelligence Logo"
+            className="footer-logo"
+          />
+        </footer>
+
+      </section>
+    </main>
   );
 }
