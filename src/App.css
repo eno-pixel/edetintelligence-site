@@ -192,3 +192,62 @@ footer p {
   margin: 30px auto 0;
   opacity: 0.95;
 }
+
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  background: #000;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.site {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.atlas-page {
+  width: 100%;
+  max-width: 1120px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro,
+.signal-line,
+.text-section,
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .atlas-page {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+  }
+
+  .metrics,
+  .grid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card,
+  .metrics div {
+    text-align: center;
+  }
+}
