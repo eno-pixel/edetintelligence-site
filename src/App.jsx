@@ -37,7 +37,7 @@ export default function App() {
           </div>
 
           <div className="card">
-            <h3>Atlas Intelligence Outputs</h3>
+            <h3>Atlas Edet Intelligence Outputs</h3>
             <p>Louisiana Labor Review</p>
             <p>Workforce Demand Forecasts</p>
             <p>Hiring Hotspot Rankings</p>
@@ -51,18 +51,18 @@ export default function App() {
         </div>
 
         <section className="text-section">
-          <h3>What Makes Atlas Different</h3>
+          <h3>What Makes Atlas Edet Different</h3>
           <p>
             Most economic reports explain what happened. Atlas Edet tracks the decisions,
             investments, projects, workforce initiatives, and development activity that determine what happens next.
           </p>
           <p>
-            By continuously monitoring economic development activity across Louisiana, Atlas helps employers,
+            By continuously monitoring economic development activity across Louisiana, Atlas Edet helps employers,
             workforce boards, economic developers, educational institutions, recruiters, contractors, utilities,
             and investors identify emerging opportunities before they become widely recognized.
           </p>
           <p>
-            Built from more than 10,000 structured intelligence signals, Atlas helps organizations identify where
+            Built from more than 10,000 structured intelligence signals, Atlas Edet helps organizations identify where
             economic activity is accelerating, where workforce demand is emerging, and where capital is being
             deployed across Louisiana before those trends appear in traditional economic or labor market data.
           </p>
