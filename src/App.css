@@ -252,3 +252,9 @@ footer {
     text-align: center;
   }
 }
+
+.atlas-page h1 {
+  font-family: "Cinzel", Georgia, serif !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.08em !important;
+}
