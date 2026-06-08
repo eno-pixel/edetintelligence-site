@@ -4,7 +4,6 @@ export default function App() {
   return (
     <main className="site">
       <section className="atlas-page">
-        <p className="presented">Presented by Edet Intelligence Inc.</p>
         <h1>ATLAS EDET<span>™</span></h1>
         <h2>Louisiana Economic Development and Workforce Intelligence</h2>
         <p className="signal-line">10,000+ Structured Signals • 3 Louisiana Regions • Continuous Monitoring</p>
