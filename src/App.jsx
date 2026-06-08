@@ -88,7 +88,6 @@ export default function App() {
         </section>
 
         <footer>
-          <p>Tracking the Signals That Shape Louisiana's Future Workforce</p>
           <a className="contact-button" href="https://mail.google.com/mail/?view=cm&fs=1&to=eno@edetintelligence.com&su=Atlas%20Edet%20Inquiry" target="_blank" rel="noopener noreferrer">
             Contact Edet Intelligence
           </a>
