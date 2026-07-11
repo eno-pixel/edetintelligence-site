@@ -13,48 +13,56 @@ export default function App() {
         </p>
 
         <section className="text-section">
-          <h3>Executive Decision Support</h3>
+  <h3>Executive Decision Support</h3>
 
-          <p>
-            Atlas Edet™ is an institutional intelligence platform built for industrial owners,
-            private equity funds, infrastructure investors, and top-tier engineering firms.
-            We transform fragmented public records into structured, decision-ready intelligence
-            that helps organizations reduce risk, protect capital, and make more informed
-            investment decisions.
-          </p>
+  <p>
+    Atlas Edet™ is an institutional intelligence platform built for industrial owners,
+    private equity funds, infrastructure investors, and top-tier engineering firms.
+  </p>
 
-          <div className="plain-list">
-            <p>
-              <strong>Site Selection Intelligence</strong><br />
-              Identify zoning constraints, administrative appeals, and emerging regulatory
-              issues before committing capital to a site.
-            </p>
+  <p>
+    We transform fragmented public records into structured, decision-ready intelligence
+    that helps organizations reduce risk, protect capital, and make more informed
+    investment decisions.
+  </p>
 
-            <p>
-              <strong>Project Continuity Monitoring</strong><br />
-              Monitor permitting activity, public opposition, and infrastructure developments
-              that may delay active projects.
-            </p>
+  <div className="grid">
+    <div className="card">
+      <h3>Site Selection Intelligence</h3>
+      <p>
+        Identify zoning constraints, administrative appeals, and emerging regulatory
+        issues before committing capital to a site.
+      </p>
 
-            <p>
-              <strong>Acquisition Opportunity Detection</strong><br />
-              Identify underutilized land, off-market development opportunities, and fatigued
-              regional operators before they become widely recognized.
-            </p>
+      <h3>Project Continuity Monitoring</h3>
+      <p>
+        Monitor permitting activity, public opposition, and infrastructure
+        developments that may delay active projects.
+      </p>
 
-            <p>
-              <strong>Capital Risk Forecasting</strong><br />
-              Track developer fee changes, utility capacity constraints, and regulatory shifts
-              that influence long-term project economics.
-            </p>
+      <h3>Acquisition Opportunity Detection</h3>
+      <p>
+        Identify underutilized land, off-market development opportunities,
+        and fatigued regional operators before they become widely recognized.
+      </p>
+    </div>
 
-            <p>
-              <strong>Infrastructure Capacity Forecasting</strong><br />
-              Monitor utility failures, wastewater capacity, and subsurface infrastructure
-              conditions that affect site readiness and future expansion.
-            </p>
-          </div>
-        </section>
+    <div className="card">
+      <h3>Capital Risk Forecasting</h3>
+      <p>
+        Track developer fee changes, utility capacity constraints, and
+        regulatory shifts that influence long-term project economics.
+      </p>
+
+      <h3>Infrastructure Capacity Forecasting</h3>
+      <p>
+        Monitor utility failures, wastewater capacity, and subsurface
+        infrastructure conditions that affect site readiness and future expansion.
+      </p>
+    </div>
+  </div>
+</section> 
+       
 
         <div className="grid">
           <div className="card">
