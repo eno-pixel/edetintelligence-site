@@ -6,41 +6,58 @@ export default function App() {
       <section className="atlas-page">
         <h1>ATLAS EDET<span>™</span></h1>
 
-        <h2>Louisiana Corporate Risk &amp; Capital Intelligence Portfolio</h2>
+        <h2>Executive Decision Support &amp; Capital Risk Intelligence</h2>
 
         <p className="signal-line">
           13,500+ Structured Signals • 12 High-Yield Industrial Parishes • Continuous Predictive Monitoring
         </p>
 
         <p className="intro">
-          Atlas Edet™ is an elite, data-driven intelligence platform engineered exclusively
-          for industrial owners, private equity funds, corporate developers, and tier-one
-          engineering firms. We track the uncoordinated regulatory, infrastructure, legal,
-          and workforce signals that determine whether multi-billion-dollar capital projects
-          succeed or stall.
+          “Most economic reports explain what happened. Atlas Edet tracks the friction
+          that determines what stops next.”
         </p>
 
-        <div className="metrics">
-          <div>
-            <strong>13,500+</strong>
-            <span>Structured Signals</span>
-          </div>
+        <section className="text-section">
+          <h3>Executive Decision Support</h3>
 
-          <div>
-            <strong>12</strong>
-            <span>High-Yield Industrial Parishes</span>
-          </div>
+          <p>
+            Atlas Edet™ is an elite intelligence portfolio engineered exclusively for
+            industrial owners, private equity funds, and top-tier infrastructure developers.
+            We convert fragmented public registries into clear, proactive data layers to
+            support critical capital allocation choices:
+          </p>
 
-          <div>
-            <strong>Real-Time</strong>
-            <span>Pipeline Monitoring</span>
-          </div>
+          <div className="plain-list">
+            <p>
+              <strong>Site Selection Intelligence:</strong> Anticipate zoning challenges,
+              administrative appeals, and hidden regulatory land reviews before committing
+              capital to a specific parcel.
+            </p>
 
-          <div>
-            <strong>Predictive</strong>
-            <span>Friction Analysis</span>
+            <p>
+              <strong>Project Continuity Monitoring:</strong> Early tracking of public
+              opposition, permitting risk, and localized infrastructure changes that cause
+              project delays.
+            </p>
+
+            <p>
+              <strong>Acquisition Opportunity Detection:</strong> Automated radar tracking
+              un-zoned, underutilized land-banking plays and fatigued regional operators.
+            </p>
+
+            <p>
+              <strong>Capital Risk Forecasting:</strong> Live monitoring of changing local
+              developer fee frameworks and utility capacity overloads that impact long-term
+              tariff resilience.
+            </p>
+
+            <p>
+              <strong>Infrastructure Capacity Forecasts:</strong> Live tracking of subsurface
+              utility breakdowns and municipal wastewater overhauls that bottleneck lot
+              expansion or site-readiness.
+            </p>
           </div>
-        </div>
+        </section>
 
         <div className="grid">
           <div className="card">
@@ -48,12 +65,12 @@ export default function App() {
 
             <p>
               We monitor the micro-signals that out-of-state executives miss, organizing
-              fragmented data into a single, proactive corporate defense radar:
+              fragmented data into a single corporate defense radar across five core vectors:
             </p>
 
             <p>
-              <strong>Entitlement &amp; Injunction Risks:</strong> Active municipal board
-              variances, unpublicized zoning rollbacks, and procedural legal challenges.
+              <strong>Zoning &amp; Permitting Risk:</strong> Active municipal board variances,
+              unpublicized zoning rollbacks, and procedural administrative appeals.
             </p>
 
             <p>
@@ -69,134 +86,120 @@ export default function App() {
             </p>
 
             <p>
-              <strong>Labor Capacity Deficits:</strong> Competing regional mega-project
-              siphoning, regional trade shortages, and industrial out-commuter exports.
+              <strong>Regional Labor Competition:</strong> Competing regional mega-project
+              siphoning, specific vocational trade deficits, and industrial out-commuter exports.
             </p>
 
             <p>
-              <strong>Regulatory &amp; Impact Fee Adjustments:</strong> Shifting developer
-              fee frameworks tied to volatile Construction Cost Indexes.
+              <strong>Regulatory &amp; Fee Adjustments:</strong> Shifting developer fee
+              frameworks tied directly to volatile, index-adjusted construction cost frameworks.
             </p>
           </div>
 
           <div className="card">
-            <h3>Atlas Edet Intelligence Outputs</h3>
+            <h3>Who Uses Atlas Edet</h3>
 
             <p>
-              <strong>Project Continuity Timelines:</strong> Continuous monitoring of
-              specific development corridors to predict and bypass construction-halt
-              injunctions.
+              Our platform is built specifically for decision-makers who manage, fund,
+              or execute large-scale development pipelines:
             </p>
 
             <p>
-              <strong>Capital Protection Matrices:</strong> Live tracking of utility and
-              infrastructure overloads to lock in long-term tariff resilience.
+              <strong>Industrial Developers</strong> protecting site-readiness schedules
+              and freight logistics.
             </p>
 
             <p>
-              <strong>Infill Sourcing &amp; Acquisition Schedulers:</strong> Automated radar
-              flagging underutilized, un-zoned land-banking plays and fatigued
-              “mom-and-pop” operators.
+              <strong>Private Equity Funds</strong> protecting acquisition yields and lot
+              expansion pipelines.
             </p>
 
             <p>
-              <strong>Workforce Capacity Forecasts:</strong> Early warning signs of labor
-              siphoning and trade trade deficits before they impact your EPC critical path.
+              <strong>Infrastructure Investors &amp; Utilities</strong> forecasting regional
+              capacity demands.
             </p>
 
             <p>
-              <strong>Custom Territorial Risk Analytics:</strong> Private, data-heavy
-              reports tailored to protect your site-readiness schedules.
+              <strong>EPC Contractors &amp; Engineering Firms</strong> derisking project
+              schedules and tracking labor competition.
+            </p>
+
+            <p>
+              <strong>Site Selection Consultants &amp; Economic Development Organizations</strong>
+              validating territorial safety.
             </p>
           </div>
         </div>
 
         <section className="text-section">
-          <h3>What Makes Atlas Edet Different</h3>
+          <h3>Geographic Coverage</h3>
 
           <p>
-            Most economic reports explain what happened. Atlas Edet tracks the friction
-            that determines what stops next.
+            Atlas Edet™ actively structures and monitors development pipelines across
+            12 high-yield industrial corridors, with active infrastructure expanding nationwide:
           </p>
 
-          <p>
-            Traditional economic data is reactive, lagging months or years behind the
-            actual risk. By the time a zoning lawsuit hits the mainstream media or a
-            traffic restriction passes a council vote, your project is already losing
-            millions of dollars a day.
-          </p>
-
-          <p>
-            Atlas Edet™ cross-references and connects separate, siloed public registries
-            in real-time. We see the cumulative picture of regional friction before your
-            competitors do—and before your own project managers are forced to respond to
-            a crisis on the ground.
-          </p>
+          <div className="plain-list">
+            <p>Ascension</p>
+            <p>St. James</p>
+            <p>St. John the Baptist</p>
+            <p>St. Charles</p>
+            <p>Iberville</p>
+            <p>Calcasieu</p>
+            <p>Cameron</p>
+            <p>Beauregard</p>
+            <p>Jefferson Davis</p>
+            <p>Rapides</p>
+            <p>Vernon</p>
+            <p>Avoyelles</p>
+          </div>
         </section>
 
         <section className="text-section">
           <h3>Why Atlas Edet Exists</h3>
 
           <p>
-            Your project is no longer just a construction project; it is the focal point
-            of coordinated public, legal, and infrastructure friction.
+            Traditional economic data is reactive, lagging months or years behind the
+            actual risk. By the time a zoning challenge hits the mainstream media or a
+            traffic restriction passes a council vote, your project is already losing
+            millions of dollars a day.
           </p>
 
           <p>
-            Multi-billion-dollar investments, pipeline expansions, and infrastructure
-            rollouts face severe exposure to local bottlenecks long before machinery
-            arrives on site. We exist to give institutional operators an absolute speed
-            advantage over local hurdles and market competitors.
+            Your asset deployment is no longer just a construction project; it is the
+            focal point of complex regulatory, legal, infrastructure, and workforce friction.
+            Most organizations treat these as isolated field issues and won&apos;t see how
+            separate workforce, utility, and city hall signals connect to bottleneck an asset
+            until they are already stuck in the middle of it.
           </p>
 
-          <p>Atlas Edet helps corporate leadership teams understand:</p>
-
-          <div className="plain-list">
-            <p>
-              Where hidden regulatory and legal threats are developing against active
-              entitlements.
-            </p>
-
-            <p>
-              Which infrastructure bottlenecks will restrict asset expansion or lot counts.
-            </p>
-
-            <p>
-              How nearby industrial megaprojects are quietly siphoning your local labor pools.
-            </p>
-
-            <p>
-              Where utility volatility and impact fees will directly hit your bottom line.
-            </p>
-
-            <p>
-              How to secure an exclusive data monopoly to completely lock out regional
-              competitors.
-            </p>
-          </div>
+          <p>
+            We track these micro-signals early so your teams can pivot before a local
+            headache turns into a hard budget constraint.
+          </p>
         </section>
 
         <section className="text-section">
-          <h3>Strategic Access Control</h3>
+          <h3>Institutional Licensing Control</h3>
 
           <p>
-            To protect the alpha and competitive advantage of our intelligence layer,
-            Atlas Edet™ restricts retail access. We operate strictly under a Territorial
-            Data Exclusivity License to ensure that our insights belong solely to one
-            dominant operator per corridor.
+            Atlas Edet™ licenses each territory to a limited number of clients to preserve
+            the predictive value of its intelligence. We do not broadly distribute regional
+            datasets or market intelligence once an exclusive territorial relationship has
+            been established.
           </p>
 
-          <h3>Secure Your Territorial Lockout</h3>
+          <h3>Secure Exclusive Territorial Intelligence</h3>
         </section>
 
         <footer>
           <a
             className="contact-button"
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=eno@edetintelligence.com&su=Atlas%20Edet%20Inquiry"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=eno@edetintelligence.com&su=Secure%20Exclusive%20Territorial%20Intelligence"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contact Edet Intelligence
+            Secure Your Territorial Lockout
           </a>
 
           <img
