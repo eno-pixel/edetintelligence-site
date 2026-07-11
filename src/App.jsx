@@ -12,11 +12,6 @@ export default function App() {
           13,500+ Structured Signals • 12 High-Yield Industrial Parishes • Continuous Predictive Monitoring
         </p>
 
-        <p className="intro">
-          “Most economic reports explain what happened. Atlas Edet tracks the friction
-          that determines what stops next.”
-        </p>
-
         <section className="text-section">
           <h3>Executive Decision Support</h3>
 
@@ -125,8 +120,9 @@ export default function App() {
             </p>
 
             <p>
-              <strong>Site Selection Consultants &amp; Economic Development Organizations</strong>
-              validating territorial safety.
+              <strong>Site Selection Consultants &amp; Economic Development Organizations</strong><br />
+              Supporting location strategy with structured regional intelligence and
+              infrastructure visibility.
             </p>
           </div>
         </div>
