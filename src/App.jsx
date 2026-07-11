@@ -6,7 +6,7 @@ export default function App() {
       <section className="atlas-page">
         <h1>ATLAS EDET<span>™</span></h1>
 
-        <h2>Executive Decision Support &amp; Capital Risk Intelligence</h2>
+        <h2>Louisiana Executive Decision Support &amp; Capital Risk Intelligence</h2>
 
         <p className="signal-line">
           13,500+ Structured Signals • 12 High-Yield Industrial Parishes • Continuous Predictive Monitoring
