@@ -16,40 +16,42 @@ export default function App() {
           <h3>Executive Decision Support</h3>
 
           <p>
-            Atlas Edet™ is an elite intelligence portfolio engineered exclusively for
-            industrial owners, private equity funds, and top-tier infrastructure developers.
-            We convert fragmented public registries into clear, proactive data layers to
-            support critical capital allocation choices:
+            Atlas Edet™ is an institutional intelligence platform built for industrial owners,
+            private equity funds, infrastructure investors, and top-tier engineering firms.
+            We transform fragmented public records into structured, decision-ready intelligence
+            that helps organizations reduce risk, protect capital, and make more informed
+            investment decisions.
           </p>
 
           <div className="plain-list">
             <p>
-              <strong>Site Selection Intelligence:</strong> Anticipate zoning challenges,
-              administrative appeals, and hidden regulatory land reviews before committing
-              capital to a specific parcel.
+              <strong>Site Selection Intelligence</strong><br />
+              Identify zoning constraints, administrative appeals, and emerging regulatory
+              issues before committing capital to a site.
             </p>
 
             <p>
-              <strong>Project Continuity Monitoring:</strong> Early tracking of public
-              opposition, permitting risk, and localized infrastructure changes that cause
-              project delays.
+              <strong>Project Continuity Monitoring</strong><br />
+              Monitor permitting activity, public opposition, and infrastructure developments
+              that may delay active projects.
             </p>
 
             <p>
-              <strong>Acquisition Opportunity Detection:</strong> Automated radar tracking
-              un-zoned, underutilized land-banking plays and fatigued regional operators.
+              <strong>Acquisition Opportunity Detection</strong><br />
+              Identify underutilized land, off-market development opportunities, and fatigued
+              regional operators before they become widely recognized.
             </p>
 
             <p>
-              <strong>Capital Risk Forecasting:</strong> Live monitoring of changing local
-              developer fee frameworks and utility capacity overloads that impact long-term
-              tariff resilience.
+              <strong>Capital Risk Forecasting</strong><br />
+              Track developer fee changes, utility capacity constraints, and regulatory shifts
+              that influence long-term project economics.
             </p>
 
             <p>
-              <strong>Infrastructure Capacity Forecasts:</strong> Live tracking of subsurface
-              utility breakdowns and municipal wastewater overhauls that bottleneck lot
-              expansion or site-readiness.
+              <strong>Infrastructure Capacity Forecasting</strong><br />
+              Monitor utility failures, wastewater capacity, and subsurface infrastructure
+              conditions that affect site readiness and future expansion.
             </p>
           </div>
         </section>
