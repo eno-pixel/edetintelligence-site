@@ -65,77 +65,89 @@ export default function App() {
        
 
         <div className="grid">
-          <div className="card">
-            <h3>What Atlas Edet Tracks</h3>
+        <div className="card">
+    <h3>What Atlas Edet Tracks</h3>
 
-            <p>
-              We monitor the micro-signals that out-of-state executives miss, organizing
-              fragmented data into a single corporate defense radar across five core vectors:
-            </p>
+    <p>
+      Atlas Edet continuously monitors fragmented public records and converts
+      disconnected local activity into structured intelligence across five
+      core risk domains.
+    </p>
 
-            <p>
-              <strong>Zoning &amp; Permitting Risk:</strong> Active municipal board variances,
-              unpublicized zoning rollbacks, and procedural administrative appeals.
-            </p>
+    <h3>Zoning &amp; Permitting Risk</h3>
+    <p>
+      Monitor municipal board variances, zoning amendments, entitlement activity,
+      and administrative appeals before they impact project schedules.
+    </p>
 
-            <p>
-              <strong>Logistical &amp; Routing Barriers:</strong> Local transportation
-              committee mandates, heavy freight routing restrictions, and upcoming
-              “No Truck” signage.
-            </p>
+    <h3>Logistical &amp; Routing Barriers</h3>
+    <p>
+      Track transportation committee actions, freight routing restrictions,
+      heavy-haul limitations, and roadway access changes.
+    </p>
 
-            <p>
-              <strong>Subsurface Infrastructure Friction:</strong> Underground utility
-              breakdowns, municipal wastewater capacity shifts, and unexpected
-              geotechnical variables.
-            </p>
+    <h3>Subsurface Infrastructure Friction</h3>
+    <p>
+      Monitor underground utility failures, wastewater capacity constraints,
+      geotechnical issues, and site-readiness bottlenecks.
+    </p>
 
-            <p>
-              <strong>Regional Labor Competition:</strong> Competing regional mega-project
-              siphoning, specific vocational trade deficits, and industrial out-commuter exports.
-            </p>
+    <h3>Regional Labor Competition</h3>
+    <p>
+      Identify workforce shortages, labor migration, vocational trade deficits,
+      and competition created by nearby industrial megaprojects.
+    </p>
 
-            <p>
-              <strong>Regulatory &amp; Fee Adjustments:</strong> Shifting developer fee
-              frameworks tied directly to volatile, index-adjusted construction cost frameworks.
-            </p>
-          </div>
+    <h3>Regulatory &amp; Fee Adjustments</h3>
+    <p>
+      Track developer fee changes, construction cost index adjustments,
+      and evolving local regulatory requirements.
+    </p>
 
-          <div className="card">
-            <h3>Who Uses Atlas Edet</h3>
+  </div>
 
-            <p>
-              Our platform is built specifically for decision-makers who manage, fund,
-              or execute large-scale development pipelines:
-            </p>
+  <div className="card">
+    <h3>Who Uses Atlas Edet</h3>
 
-            <p>
-              <strong>Industrial Developers</strong> protecting site-readiness schedules
-              and freight logistics.
-            </p>
+    <p>
+      Atlas Edet is designed for organizations responsible for evaluating,
+      financing, developing, or protecting major capital investments.
+    </p>
 
-            <p>
-              <strong>Private Equity Funds</strong> protecting acquisition yields and lot
-              expansion pipelines.
-            </p>
+    <h3>Industrial Developers</h3>
+    <p>
+      Protecting site-readiness schedules, permitting timelines,
+      and freight logistics.
+    </p>
 
-            <p>
-              <strong>Infrastructure Investors &amp; Utilities</strong> forecasting regional
-              capacity demands.
-            </p>
+    <h3>Private Equity Funds</h3>
+    <p>
+      Evaluating acquisition opportunities and protecting
+      long-term investment performance.
+    </p>
 
-            <p>
-              <strong>EPC Contractors &amp; Engineering Firms</strong> derisking project
-              schedules and tracking labor competition.
-            </p>
+    <h3>Infrastructure Investors &amp; Utilities</h3>
+    <p>
+      Forecasting regional infrastructure demand, utility capacity,
+      and future expansion requirements.
+    </p>
 
-            <p>
-              <strong>Site Selection Consultants &amp; Economic Development Organizations</strong><br />
-              Supporting location strategy with structured regional intelligence and
-              infrastructure visibility.
-            </p>
-          </div>
-        </div>
+    <h3>EPC Contractors &amp; Engineering Firms</h3>
+    <p>
+      Reducing project risk through early visibility into permitting,
+      infrastructure, and workforce constraints.
+    </p>
+
+    <h3>Site Selection Consultants &amp; Economic Development Organizations</h3>
+    <p>
+      Supporting location strategy with structured regional intelligence,
+      infrastructure visibility, and territorial risk assessment.
+    </p>
+
+  </div>
+
+</div>
+      
 
         <section className="text-section">
           <h3>Geographic Coverage</h3>
