@@ -13,8 +13,9 @@ export default function App() {
           </h1>
 
           <p className="positioning-statement">
-            “Most economic reports explain what happened. Edet Intelligence tracks
-            the friction that determines what stops next.”
+            "By knowledge the rooms are filled with all precious and pleasant riches."
+            <br />
+            <span>— Proverbs 24:4</span>
           </p>
         </header>
 

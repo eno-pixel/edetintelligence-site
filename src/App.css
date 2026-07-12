@@ -230,3 +230,13 @@ footer p {
     padding: 15px 18px;
   }
 }
+
+
+.positioning-statement span {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.75em;
+  letter-spacing: 0.08em;
+  color: #888888;
+  font-style: normal;
+}
