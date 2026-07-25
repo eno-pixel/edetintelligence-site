@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <polygon
+    points="250,35 430,139 430,347 250,451 70,347 70,139"
+    fill="none"
+    stroke="#fff"
+    stroke-width="7"
+  />
+
+  <polygon
+    points="250,56 412,149 412,337 250,430 88,337 88,149"
+    fill="none"
+    stroke="#fff"
+    stroke-width="3"
+  />
+
+  <!-- Louisiana silhouette -->
+  <g transform="translate(210 71) scale(.32)" fill="#fff">
+    <path d="M40 0H170V35L155 50L170 70L156 90L170 110L156 132L170 154L156 178L176 198L162 220L184 238L168 260L192 278L174 300L202 322L180 342L200 364L176 382L150 372L128 388L104 376L82 392L58 378L34 386L12 366L24 342L4 320L18 296L2 272L18 248L4 224L20 200L8 176L24 152L12 126L28 102L16 76L40 52Z"/>
+  </g>
+
+  <line x1="142" y1="128" x2="193" y2="128" stroke="#fff" stroke-width="3"/>
+  <line x1="307" y1="128" x2="358" y2="128" stroke="#fff" stroke-width="3"/>
+
+  <!-- Growth bars -->
+  <rect x="169" y="201" width="24" height="58" fill="#fff"/>
+  <rect x="214" y="179" width="24" height="80" fill="#fff"/>
+  <rect x="259" y="153" width="24" height="106" fill="#fff"/>
+  <rect x="304" y="119" width="24" height="140" fill="#fff"/>
+
+  <line x1="138" y1="279" x2="362" y2="279" stroke="#fff" stroke-width="4"/>
+
+  <text
+    x="250"
+    y="356"
+    text-anchor="middle"
+    fill="#fff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="79"
+    font-weight="700"
+    letter-spacing="5"
+  >SEBD</text>
+
+  <line x1="138" y1="378" x2="362" y2="378" stroke="#fff" stroke-width="4"/>
+
+  <text
+    x="250"
+    y="423"
+    text-anchor="middle"
+    fill="#fff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="21"
+    font-weight="500"
+    letter-spacing="8"
+  >CERTIFIED</text>
+</svg>
