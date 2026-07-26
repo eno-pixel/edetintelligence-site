@@ -112,67 +112,7 @@ export default function App() {
 
 
       <main id="top">
-        <section className="hero">
-          <div className="hero-content">
-            <p className="eyebrow">Edet Intelligence | Economic Data Infrastructure for Software & AI</p>
 
-            <h1>The Intelligence Layer for Software &amp; AI</h1>
-
-            <p className="hero-copy">
-              Power your software with structured regional economic intelligence—without
-              building and maintaining the underlying data infrastructure yourself.
-            </p>
-
-            <p className="hero-description">
-              Edet Intelligence develops <strong>Atlas</strong>, a continuously
-              updated intelligence infrastructure that transforms fragmented public
-              records into structured, machine-readable data for software platforms,
-              artificial intelligence applications, and enterprise technology
-              systems.
-            </p>
-
-            <div className="hero-actions">
-              <a className="primary-button" href="#contact">
-                Request Access
-              </a>
-
-              <a className="secondary-button" href="#atlas">
-                Explore Atlas
-              </a>
-            </div>
-          </div>
-
-          <div className="hero-panel">
-            <div className="panel-header">
-              <span>ATLAS</span>
-              <span className="status">
-                <span className="status-dot" />
-                Intelligence Infrastructure
-              </span>
-            </div>
-
-            <div className="workflow">
-              <div className="workflow-step">
-                <strong>Collect</strong>
-                <p>Monitor fragmented public sources.</p>
-              </div>
-
-              <div className="workflow-line" />
-
-              <div className="workflow-step">
-                <strong>Structure</strong>
-                <p>Clean, normalize, and categorize records.</p>
-              </div>
-
-              <div className="workflow-line" />
-
-              <div className="workflow-step">
-                <strong>Integrate</strong>
-                <p>Power software, AI, and enterprise systems.</p>
-              </div>
-            </div>
-          </div>
-        </section>
 
 
         <section className="atlas-engine" aria-label="Atlas Intelligence Engine">
