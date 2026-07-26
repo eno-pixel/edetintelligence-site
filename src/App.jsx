@@ -174,27 +174,134 @@ export default function App() {
           </div>
         </section>
 
-<section className="metrics-block" aria-label="Edet Intelligence platform metrics">
-          <div className="metric">
-            <strong>20,000+</strong>
-            <span>Structured Signals</span>
+
+        <section className="atlas-engine" aria-label="Atlas Intelligence Engine">
+          <div className="engine-header">
+            <div className="engine-window-controls" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <p className="engine-title">Atlas Intelligence Engine</p>
+
+            <div className="engine-live">
+              <span className="live-indicator"></span>
+              Live
+            </div>
           </div>
 
-          <div className="metric">
-            <strong>12+</strong>
-            <span>Economic Categories</span>
-          </div>
+          <div className="engine-body">
+            <div className="pipeline-section">
+              <div className="engine-section-heading">
+                <p>Intelligence Pipeline</p>
+                <span>Economic Data Infrastructure</span>
+              </div>
 
-          <div className="metric">
-            <strong>Multi-Billion Dollar</strong>
-            <span>Industrial Corridors</span>
-          </div>
+              <div className="pipeline">
+                <div className="pipeline-stage">
+                  <span className="stage-number">01</span>
+                  <strong>Public Records</strong>
+                  <small>Fragmented regional sources</small>
+                </div>
 
-          <div className="metric">
-            <strong>Continuously</strong>
-            <span>Maintained</span>
+                <div className="pipeline-connector" aria-hidden="true">
+                  <span></span>
+                </div>
+
+                <div className="pipeline-stage">
+                  <span className="stage-number">02</span>
+                  <strong>AI Structuring</strong>
+                  <small>Cleaned and categorized</small>
+                </div>
+
+                <div className="pipeline-connector" aria-hidden="true">
+                  <span></span>
+                </div>
+
+                <div className="pipeline-stage">
+                  <span className="stage-number">03</span>
+                  <strong>Atlas Intelligence</strong>
+                  <small>20,000+ structured signals</small>
+                </div>
+
+                <div className="pipeline-connector" aria-hidden="true">
+                  <span></span>
+                </div>
+
+                <div className="pipeline-stage">
+                  <span className="stage-number">04</span>
+                  <strong>Enterprise API</strong>
+                  <small>Production-ready access</small>
+                </div>
+
+                <div className="pipeline-connector" aria-hidden="true">
+                  <span></span>
+                </div>
+
+                <div className="pipeline-stage">
+                  <span className="stage-number">05</span>
+                  <strong>Software &amp; AI</strong>
+                  <small>Integrated intelligence</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="engine-lower-grid">
+              <div className="coverage-section">
+                <div className="engine-section-heading">
+                  <p>Regional Coverage</p>
+                  <span>12 Louisiana Parishes</span>
+                </div>
+
+                <div className="coverage-grid">
+                  <span>Ascension</span>
+                  <span>St. James</span>
+                  <span>St. John the Baptist</span>
+                  <span>St. Charles</span>
+                  <span>Iberville</span>
+                  <span>Calcasieu</span>
+                  <span>Cameron</span>
+                  <span>Beauregard</span>
+                  <span>Jefferson Davis</span>
+                  <span>Rapides</span>
+                  <span>Vernon</span>
+                  <span>Avoyelles</span>
+                </div>
+              </div>
+
+              <div className="engine-status-section">
+                <div className="engine-section-heading">
+                  <p>Infrastructure Status</p>
+                  <span>Continuously Maintained</span>
+                </div>
+
+                <div className="status-list">
+                  <div>
+                    <span>Source Monitoring</span>
+                    <strong><i></i> Active</strong>
+                  </div>
+
+                  <div>
+                    <span>Signal Infrastructure</span>
+                    <strong>20,000+</strong>
+                  </div>
+
+                  <div>
+                    <span>Economic Categories</span>
+                    <strong>12+</strong>
+                  </div>
+
+                  <div>
+                    <span>Industrial Coverage</span>
+                    <strong>Multi-Billion Dollar</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
+
 
         <section className="section" id="overview">
           <div className="section-heading">
