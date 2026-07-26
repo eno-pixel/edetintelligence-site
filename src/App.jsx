@@ -114,8 +114,87 @@ export default function App() {
       <main id="top">
 
 
+        <section className="section" id="overview">
+          <div className="section-heading">
+            <p className="section-kicker">Overview</p>
+            <h2>Build Better Products Without Building the Data Infrastructure First</h2>
+          </div>
 
-        <section className="atlas-engine" aria-label="Atlas Intelligence Engine">
+          <div className="overview-grid">
+            <div className="overview-copy">
+              <p>
+                Building intelligent software requires reliable data. Collecting,
+                cleaning, organizing, and maintaining public information at scale is
+                expensive, time-consuming, and difficult to sustain.
+              </p>
+
+              <p>
+                Edet Intelligence helps software and AI companies eliminate that
+                burden. Through Atlas, we provide continuously maintained,
+                production-ready regional intelligence that technology companies can
+                integrate into their products, applications, models, and internal
+                systems.
+              </p>
+
+              <p>
+                Instead of investing significant engineering time into complex data
+                pipelines, your team can focus on creating innovative software,
+                improving customer experiences, and growing your platform.
+              </p>
+            </div>
+
+            <div className="value-card">
+              <p className="card-label">What Your Team Gains</p>
+              <ul>
+                <li>Reduced data collection and engineering costs</li>
+                <li>Faster product and feature development</li>
+                <li>Structured regional data for AI systems</li>
+                <li>More efficient expansion into new markets</li>
+                <li>Differentiated intelligence capabilities</li>
+                <li>A long-term data infrastructure partner</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="section" id="atlas">
+          <div className="section-heading">
+            <p className="section-kicker">Meet Atlas</p>
+            <h2>Regional Economic Intelligence Infrastructure Built for Technology Companies</h2>
+            <p>
+              Atlas is the proprietary data infrastructure developed and maintained
+              by Edet Intelligence.
+            </p>
+          </div>
+
+          <div className="atlas-layout">
+            <div className="atlas-copy">
+              <p>
+                Atlas transforms fragmented public information into structured
+                intelligence that can be integrated into software products,
+                artificial intelligence systems, enterprise tools, mapping
+                platforms, and industry-specific applications.
+              </p>
+
+              <p>
+                Through Atlas, technology companies gain access to a maintained
+                regional intelligence layer without taking on the cost and
+                complexity of building it internally.
+              </p>
+            </div>
+
+            <div className="category-grid">
+              {atlasCategories.map((category) => (
+                <div className="category-item" key={category}>
+                  <span className="category-dot" />
+                  {category}
+                </div>
+              ))}
+            </div>
+          </div>
+        
+
+<section className="atlas-engine" aria-label="Atlas Intelligence Engine">
           <div className="engine-header">
             <div className="engine-window-controls" aria-hidden="true">
               <span></span>
@@ -241,86 +320,6 @@ export default function App() {
             </div>
           </div>
         </section>
-
-
-        <section className="section" id="overview">
-          <div className="section-heading">
-            <p className="section-kicker">Overview</p>
-            <h2>Build Better Products Without Building the Data Infrastructure First</h2>
-          </div>
-
-          <div className="overview-grid">
-            <div className="overview-copy">
-              <p>
-                Building intelligent software requires reliable data. Collecting,
-                cleaning, organizing, and maintaining public information at scale is
-                expensive, time-consuming, and difficult to sustain.
-              </p>
-
-              <p>
-                Edet Intelligence helps software and AI companies eliminate that
-                burden. Through Atlas, we provide continuously maintained,
-                production-ready regional intelligence that technology companies can
-                integrate into their products, applications, models, and internal
-                systems.
-              </p>
-
-              <p>
-                Instead of investing significant engineering time into complex data
-                pipelines, your team can focus on creating innovative software,
-                improving customer experiences, and growing your platform.
-              </p>
-            </div>
-
-            <div className="value-card">
-              <p className="card-label">What Your Team Gains</p>
-              <ul>
-                <li>Reduced data collection and engineering costs</li>
-                <li>Faster product and feature development</li>
-                <li>Structured regional data for AI systems</li>
-                <li>More efficient expansion into new markets</li>
-                <li>Differentiated intelligence capabilities</li>
-                <li>A long-term data infrastructure partner</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section className="section" id="atlas">
-          <div className="section-heading">
-            <p className="section-kicker">Meet Atlas</p>
-            <h2>Regional Economic Intelligence Infrastructure Built for Technology Companies</h2>
-            <p>
-              Atlas is the proprietary data infrastructure developed and maintained
-              by Edet Intelligence.
-            </p>
-          </div>
-
-          <div className="atlas-layout">
-            <div className="atlas-copy">
-              <p>
-                Atlas transforms fragmented public information into structured
-                intelligence that can be integrated into software products,
-                artificial intelligence systems, enterprise tools, mapping
-                platforms, and industry-specific applications.
-              </p>
-
-              <p>
-                Through Atlas, technology companies gain access to a maintained
-                regional intelligence layer without taking on the cost and
-                complexity of building it internally.
-              </p>
-            </div>
-
-            <div className="category-grid">
-              {atlasCategories.map((category) => (
-                <div className="category-item" key={category}>
-                  <span className="category-dot" />
-                  {category}
-                </div>
-              ))}
-            </div>
-          </div>
         </section>
 
         <section className="section" id="services">
