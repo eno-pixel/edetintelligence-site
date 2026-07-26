@@ -111,29 +111,6 @@ export default function App() {
       </header>
 
 
-        <section className="metrics-block" aria-label="Edet Intelligence platform metrics">
-          <div className="metric">
-            <strong>20,000+</strong>
-            <span>Structured Signals</span>
-          </div>
-
-          <div className="metric">
-            <strong>12+</strong>
-            <span>Economic Categories</span>
-          </div>
-
-          <div className="metric">
-            <strong>Multi-Billion Dollar</strong>
-            <span>Industrial Corridors</span>
-          </div>
-
-          <div className="metric">
-            <strong>Continuously</strong>
-            <span>Maintained</span>
-          </div>
-        </section>
-
-
       <main id="top">
         <section className="hero">
           <div className="hero-content">
@@ -194,6 +171,28 @@ export default function App() {
                 <p>Power software, AI, and enterprise systems.</p>
               </div>
             </div>
+          </div>
+        </section>
+
+<section className="metrics-block" aria-label="Edet Intelligence platform metrics">
+          <div className="metric">
+            <strong>20,000+</strong>
+            <span>Structured Signals</span>
+          </div>
+
+          <div className="metric">
+            <strong>12+</strong>
+            <span>Economic Categories</span>
+          </div>
+
+          <div className="metric">
+            <strong>Multi-Billion Dollar</strong>
+            <span>Industrial Corridors</span>
+          </div>
+
+          <div className="metric">
+            <strong>Continuously</strong>
+            <span>Maintained</span>
           </div>
         </section>
 
