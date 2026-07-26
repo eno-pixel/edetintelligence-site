@@ -91,7 +91,7 @@ export default function App() {
         <a className="brand" href="#top" aria-label="Edet Intelligence home">
           <span className="brand-mark">E.</span>
           <span className="brand-copy">
-            <span className="brand-name">EDET ECONOMIC INTELLIGENCE</span>
+            <span className="brand-name">EDET INTELLIGENCE</span>
             <span className="brand-direction">ECONOMIC DATA INFRASTRUCTURE FOR SOFTWARE & AI</span>
           </span>
         </a>
