@@ -241,7 +241,7 @@ export default function App() {
                 <div className="pipeline-stage">
                   <span className="stage-number">03</span>
                   <strong>Atlas Intelligence</strong>
-                  <small>20,000+ structured signals</small>
+                  <small>20,000+ structured economic signals</small>
                 </div>
 
                 <div className="pipeline-connector" aria-hidden="true">
