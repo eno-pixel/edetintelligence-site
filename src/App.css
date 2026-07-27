@@ -1516,3 +1516,18 @@ a {
     color:rgba(255,255,255,.72);
 }
 
+
+/* Tighten Meet Atlas spacing on mobile only */
+@media (max-width: 560px) {
+  .atlas-engine {
+    margin-bottom: 28px;
+  }
+
+  #atlas,
+  .atlas-section,
+  .meet-atlas,
+  .meet-atlas-section {
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+}
