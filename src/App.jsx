@@ -508,10 +508,19 @@ export default function App() {
 
           <form
             className="contact-form"
-            action="mailto:eno@edetintelligence.com"
-            method="post"
-            encType="text/plain"
+            action="https://formspree.io/f/mrennbzy"
+            method="POST"
           >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Edet Intelligence Website Inquiry"
+            />
+            <input
+              type="hidden"
+              name="form_type"
+              value="Contact / Request Access"
+            />
             <div className="form-row">
               <label>
                 Full Name
@@ -527,7 +536,7 @@ export default function App() {
             <div className="form-row">
               <label>
                 Work Email
-                <input type="email" name="email" required />
+                <input type="email" name="email" autoComplete="email" required />
               </label>
 
               <label>
