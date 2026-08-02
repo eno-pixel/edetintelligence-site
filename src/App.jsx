@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 
 const services = [
@@ -85,6 +86,19 @@ const audiences = [
 ];
 
 export default function App() {
+
+  useEffect(() => {
+    const clearForms = () => {
+      document.querySelectorAll("form").forEach((form) => form.reset());
+    };
+
+    clearForms();
+
+    window.addEventListener("pageshow", clearForms);
+
+    return () => window.removeEventListener("pageshow", clearForms);
+  }, []);
+
   return (
     <div className="site">
       <header className="site-header">
